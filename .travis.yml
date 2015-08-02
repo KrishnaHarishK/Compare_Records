@@ -29,3 +29,14 @@ deploy:
   space: development
   on:
     repo: KrishnaHarishK/Compare_Records
+
+deploy:
+  edge: true
+  provider: cloudfoundry
+  api: https://api.run.pivotal.io
+  username: chiranjeevi.v.desaraju@verizon.com
+  password: gundu1526
+  organization: titus_hackathon_legends
+  space: QA-Testing
+  on:
+    repo: KrishnaHarishK/Compare_Records
