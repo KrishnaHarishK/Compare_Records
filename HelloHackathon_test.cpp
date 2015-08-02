@@ -30,11 +30,6 @@ TEST (isDir, Positive)
 	EXPECT_TRUE (isDir("gtest-1.6.0"));
 }
 
-TEST (ready_to_compare, Positive)
-{
-	EXPECT_FALSE (ready_to_compare ());
-}
-
 int
 main (int argc, char* argv[])
 {
