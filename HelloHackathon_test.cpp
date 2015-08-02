@@ -20,7 +20,7 @@ using namespace std;
 
 TEST (isFile, Positive)
 {
-	EXPECT_TRUE  (isFile("HelloHackathon.sh"));
+	EXPECT_TRUE  (isFile("Compare_Records.sh"));
 	EXPECT_FALSE (isFile("gtest-1.6.0"));
 }
 
