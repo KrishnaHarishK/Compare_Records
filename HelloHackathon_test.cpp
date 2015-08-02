@@ -26,8 +26,8 @@ TEST (isFile, Positive)
 
 TEST (isDir, Positive)
 {
-	EXPECT_FALSE  (isFile("Compare_Records.sh"));
-	EXPECT_TRUE (isFile("gtest-1.6.0"));
+	EXPECT_FALSE (isDir("Compare_Records.sh"));
+	EXPECT_TRUE (isDir("gtest-1.6.0"));
 }
 
 int
