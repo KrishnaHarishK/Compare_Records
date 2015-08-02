@@ -23,8 +23,6 @@
 #include <set>
 #include <limits.h>
 
-void GenerateCSV (char* const);
-
 int unsigned gl_KeyCount_First   = 0,
              gl_KeyCount_Second  = 0,
              gl_DupCount_First   = 0,
@@ -44,6 +42,7 @@ int unsigned gl_KeyCount_First   = 0,
 void GenerateCSV (char* const);
 bool isFile (char* const);
 bool isDir  (char* const);
+bool ready_to_compare (void);
 
 /**
  * This is an application that compares the contents of two directories, based
